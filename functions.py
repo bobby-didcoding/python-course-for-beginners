@@ -1,11 +1,22 @@
 #Python functions
 
 '''
-A function is a group of code. 
+Think of a function as a little named container for a group of your code!
 
 To run the code in a function, you must call the function.
 
 A function can be called from anywhere after the function is defined. 
+
+example...
+>>>def demo_func(param:int):
+...    """This is just a demo
+...    function.
+...    """
+...    calc = param + 4
+...    return calc
+
+>>>demo_func(6)
+10
 
 Functions can return a value using a return statement. Functions are 
 a common feature among all programming languages

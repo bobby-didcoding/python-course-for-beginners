@@ -75,3 +75,11 @@ x = [a, n]
 x
 x[0]
 x[0][1]
+
+
+#List comprehension
+[x**2 for x in range(10)]
+
+#built-in function list()
+x = list(('bobby', 'at', 'didcoding','dot', 'com')) # creates a list object
+x

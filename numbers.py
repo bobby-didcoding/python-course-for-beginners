@@ -24,6 +24,10 @@ Build in Function:
 round() Rounds a numbers with the specified number of 
 decimals i.e. round(number, decimals) 
 
+
+lastly, Python has a handy way of making big int's easier to read
+4000000000 can be written as 
+4_000_000_000
 '''
 
 

@@ -63,3 +63,11 @@ len(some_dict)
 #show all keys and values
 some_dict.keys()
 some_dict.values()
+
+
+#Dict comprehension
+{x: x**2 for x in (2, 4, 6)}
+
+#built-in function dict()
+x = dict(a=1, b=2, c=3, d=4)# creates a dictionary object
+x
