@@ -12,7 +12,7 @@ Fell free to use this repo as a 'cheat sheet'
 3. Use the following commands to clone this repo:
 
 ```
-$ git clone git@github.com:bobby-didcoding/python-course-for-beginners.git
+git clone git@github.com:bobby-didcoding/python-course-for-beginners.git
 ```
 
 ## About us
