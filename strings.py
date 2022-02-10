@@ -68,12 +68,9 @@ zfill() Fills the string with a specified number of 0 values at the beginning
 "doesn't"  # ...or use double quotes instead
 '"Yes," they said.'
 "\"Yes,\" they said."
-'"Isn\'t," they said.'
+
 
 #New line
-'"Isn\'t," they said.'
-print('"Isn\'t," they said.')
-
 s = 'First line.\nSecond line.'  # \n means newline
 s  # without print(), \n is included in the output
 

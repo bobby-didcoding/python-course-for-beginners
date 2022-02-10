@@ -12,6 +12,7 @@ list
 Tuples are written as a list of comma-separated 
 values (items) between brakets.
 
+
 Tuples are immutable - this means that items can not be changed. However,
 a tuple can contain mutable objects.
 

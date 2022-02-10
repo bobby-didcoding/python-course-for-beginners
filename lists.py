@@ -78,7 +78,13 @@ x[0][1]
 
 
 #List comprehension
-[x**2 for x in range(10)]
+y = []
+for x in range(10):
+    y.append(x**2)
+
+y
+y = [x**2 for x in range(10)]
+y
 
 #built-in function list()
 x = list(('bobby', 'at', 'didcoding','dot', 'com')) # creates a list object
