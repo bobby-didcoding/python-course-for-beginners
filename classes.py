@@ -24,9 +24,6 @@ before they have any effect.
 
 #basics
 
-from unicodedata import name
-
-
 class MyClass:
     """A simple example class"""
     i = 12345
@@ -44,22 +41,23 @@ x.f() # calls the class method
 
 '''
 Notice how self is passed as the first arg!! 
-We pass the metholds instance object in as the first arg!
-so x.f() is the equivilent of MyClass.f(x)
+We pass the methods instance object in as the first arg!
+so x.f() is the equivalent of MyClass.f(x)
 Note: 'self' has no special meaning to Python - it's just convention
 '''
 
 #Class with special initial state - we user __init__
-#alows us to pass args to the class for greater flexibility
+#allows us to pass args to the class for greater flexibility
 class MyClass:
     """A simple example class"""
     def __init__(self, my_int:int):
         self.i = my_int
     
     def f(self):
-        return 'hello world'
+        new = self.i ** 3
+        return new
 
-x = MyClass(12345) #instantiates the class
+x = MyClass(4) #instantiates the class
 x.i # return the int
 x.f() # calls the class method
 
@@ -77,15 +75,14 @@ while x.counter < 10:
 
 print(x.counter) #prints 16
 del x.counter # delete the data attribute
-print(x.counter) # AttibuteError
+print(x.counter) # AttributeError
 
 #Class and Instance Variables
 class Dog:
     kind = 'canine' # class variable shared by all instances
     def __init__(self, name):
         self.name = name# instance variable unique to each instance
-        self.tricks = []
-
+        
     def add_trick(self, trick):
         self.tricks.append(trick)
 
@@ -99,7 +96,7 @@ d.add_trick('roll over')
 e.add_trick('play dead')
 d.tricks
 
-#Inheritence
+#Inheritance
 
 '''
 class DerivedClassName(Base1, Base2, Base3):
@@ -116,7 +113,7 @@ is not found in the class, the search proceeds to look in the base class.
 This rule is applied recursively if the base class itself is derived from 
 some other class.
 
-Derived classes may exend or override methods of their base classes.
+Derived classes may extend or override methods of their base classes.
 '''
 
 class Mapping:

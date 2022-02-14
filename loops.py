@@ -5,7 +5,7 @@ Python’s for statement iterates over the items of any sequence
 (a list or a string), in the order that they appear in the 
 sequence.
 
-The built-in Range function 'range()' comes in handy ifyou do need 
+The built-in Range function 'range()' comes in handy if you do need 
 to iterate over a sequence of numbers. It generates arithmetic progressions:
 
 range(start, stop, step)

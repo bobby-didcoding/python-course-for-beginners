@@ -54,7 +54,7 @@ some_dict['a_key_4']
 some_dict.copy()
 
 #altering a dict
-some_dict['a_key'] = 'new_value'  # add the cube of 6
+some_dict['a_key'] = 'new_value'  
 some_dict['a_key']
 
 #Length

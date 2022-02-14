@@ -10,7 +10,7 @@ set
 list
 
 Tuples are written as a list of comma-separated 
-values (items) between brakets.
+values (items) between parentheses.
 
 
 Tuples are immutable - this means that items can not be changed. However,

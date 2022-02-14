@@ -3,7 +3,7 @@
 '''
 Python knows a number of compound data types, 
 used to group together other values. The most
-versitile of which is a list.
+versatile of which is a list.
 Others include:
 tuple
 dictionary

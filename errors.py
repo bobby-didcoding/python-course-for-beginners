@@ -1,10 +1,11 @@
 #Handling errors
 
 '''
-Python has (at least) two distinguishable kinds of errors: syntax errors and exceptions.
+Python has (at least) two distinguishable kinds of errors: 
+syntax errors and exceptions.
 
-Syntax errors: Also known as parsing errors, are perhaps the most common kind of complaint
-you get while you are still learning Python.
+Syntax errors: Also known as parsing errors, are perhaps the 
+most common kind of complaint you get while you are still learning Python.
 
 Exceptions: Errors detected during execution are called exceptions and are not 
 unconditionally fatal: you will soon learn how to handle them in Python programs.
@@ -18,7 +19,7 @@ EOFError Raised when the input() method hits an "end of file" condition (EOF)
 FloatingPointError Raised when a floating point calculation fails
 GeneratorExit Raised when a generator is closed (with the close() method)
 ImportError Raised when an imported module does not exist
-IndentationError Raised when indendation is not correct
+IndentationError Raised when indentation is not correct
 IndexError Raised when an index of a sequence does not exist
 KeyError Raised when a key does not exist in a dictionary
 KeyboardInterrupt Raised when the user presses Ctrl+c, Ctrl+z or Delete
@@ -56,7 +57,7 @@ while True:
         x = int(input("Please enter a number: "))
         break
     #Add multiple exceptions in a tuple (RuntimeError, TypeError, NameError)
-    except ValueError: 
+    except (RuntimeError, TypeError, NameError, ValueError): 
         print("Oops!  That was no valid number.  Try again...")
 
 
