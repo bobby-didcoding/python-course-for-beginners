@@ -4,7 +4,7 @@ Welcome to the supporting doc's to my 'Python Course For Beginners'
 
 ![Python course for beginners](https://static.didcoding.com/media/tutorials/Python_course.jpg "Python Course For Beginners")
 
-Fell free to use this repo as a 'cheat sheet'
+Feel free to use this repo as a 'cheat sheet'
 
 ## Get your own copy of this repo
 1. Navigate to your development directory on you machine
